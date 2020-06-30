@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import TransactionScreen from './screens/BookTransactionScreen';
 import SearchScreen from './screens/SearchScreen';
-
+console.disableYellowBox = true;
 
 export default class App extends React.Component {
   render(){
